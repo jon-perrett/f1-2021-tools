@@ -1,9 +1,12 @@
+import os
+from kafka.kafka_consumer import KafkaConsumer
+from kafka.kafka_producer import KafkaProducer
 from telemetry_manager import TelemetryManager
-from packet_manager import PacketManager
-from packet_queue import PacketQueue
 
-packet_queue = PacketQueue()
-TelemetryManager(packet_queue=packet_queue)
-PacketManager(packet_queue=packet_queue)
+cons_config = {"bootstrap.servers": "localhost:9092", "group.id": "group"}
+config = {"bootstrap.servers": "localhost:9092"}
+kafka_producer = KafkaProducer(config)
+TelemetryManager(kafka_producer)
+c = KafkaConsumer(cons_config, ["PacketMotionData"])
 while True:
-    pass
+    c.get_messages()

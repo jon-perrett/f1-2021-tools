@@ -1,6 +1,9 @@
+import logging
 from threading import Thread
 
 from telemetry_f1_2021.listener import TelemetryListener
+
+from kafka.kafka_admin import KafkaAdmin
 
 
 class TelemetryManager(Thread):
@@ -15,14 +18,17 @@ class TelemetryManager(Thread):
         run - called as part of the start method in Thread. Gets packets and adds them to the queue.
     """
 
-    def __init__(self, packet_queue):
+    def __init__(self, producer):
         Thread.__init__(self)
-        self.packet_queue = packet_queue
+        self.producer = producer
         self.daemon = True
         self.telemetry_listener = TelemetryListener()
         self.start()
 
     def run(self):
+        admin = KafkaAdmin(self.producer.config)
         while True:
             packet = self.telemetry_listener.get()
-            self.packet_queue.add_item(packet)
+            topic_name = type(packet).__name__
+            admin.check_add_topic(topic_name)
+            self.producer.produce_data(topic_name, packet)

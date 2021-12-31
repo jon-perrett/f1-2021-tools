@@ -1,3 +1,4 @@
+import logging
 import os
 from confluent_kafka.admin import AdminClient, NewTopic
 import time
@@ -51,15 +52,9 @@ class KafkaAdmin:
 
     def check_add_topic(self, topic_name: str) -> bool:
         if self.check_topic(topic_name, 0, 0):
-            print(f"Topic {topic_name} already exists")
+            logging.info(f"Topic {topic_name} already exists")
             return True
         if self.add_topic(topic_name):
-            print(f"{topic_name} created successfully")
+            logging.info(f"{topic_name} created successfully")
             return True
         return False
-
-
-if __name__ == "__main__":
-    config = {"bootstrap.servers": os.getenv('BOOTSTRAP_SERVERS')}
-    kafka = KafkaAdmin(config)
-    kafka.check_add_topic("hello_world")
