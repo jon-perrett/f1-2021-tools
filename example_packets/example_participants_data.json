@@ -1,0 +1,259 @@
+{
+  "m_header": {
+    "m_frame_identifier": 3806,
+    "m_game_major_version": 1,
+    "m_game_minor_version": 14,
+    "m_packet_format": 2021,
+    "m_packet_id": 4,
+    "m_packet_version": 1,
+    "m_player_car_index": 0,
+    "m_secondary_player_car_index": 255,
+    "m_session_time": 181.293,
+    "m_session_uid": 7802987490775834958
+  },
+  "m_num_active_cars": 1,
+  "m_participants": [
+    {
+      "m_ai_controlled": 0,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 0,
+      "m_race_number": 255,
+      "m_team_id": 74,
+      "m_your_telemetry": 0
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "Default Ghost",
+      "m_nationality": 255,
+      "m_network_id": 1,
+      "m_race_number": 255,
+      "m_team_id": 74,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "Personal Best",
+      "m_nationality": 255,
+      "m_network_id": 2,
+      "m_race_number": 255,
+      "m_team_id": 74,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 72,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 70,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 74,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 80,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 78,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 73,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 71,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 77,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 76,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 79,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 75,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 108,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 110,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 113,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 107,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 106,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 112,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 114,
+      "m_your_telemetry": 1
+    },
+    {
+      "m_ai_controlled": 1,
+      "m_driver_id": 255,
+      "m_my_team": 0,
+      "m_name": "xo_nuglyf",
+      "m_nationality": 0,
+      "m_network_id": 3,
+      "m_race_number": 255,
+      "m_team_id": 111,
+      "m_your_telemetry": 1
+    }
+  ]
+}
